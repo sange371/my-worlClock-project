@@ -1,5 +1,5 @@
 #clock-container{
-    background-color: rgb(211, 215, 217);
+    background-color: rgba(217, 217, 217, 0.896);
     width:420px;
     display:block;
     margin:60px auto;
@@ -8,7 +8,8 @@
     border:1px solid whitesmoke;
 }
 body{
-    background-color: rgb(227, 241, 244);
+    background-image: url("https://images.pexels.com/photos/1034425/pexels-photo-1034425.jpeg");
+    background-size: cover;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -25,6 +26,7 @@ select{
 footer{
     text-align: center;
     font-size:14px;
+    color:white;
 }
 a{
     font-size:12;
@@ -36,7 +38,7 @@ a{
     border-bottom: dashed gray;
 }
 .time{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     line-height: 5.3;
 }
