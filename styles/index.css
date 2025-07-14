@@ -30,12 +30,15 @@ footer{
 }
 a{
     font-size:12;
-    color:rgb(8, 108, 195)
+    color:rgb(8, 108, 195);
 }
 .city{
     display:flex;
     justify-content: space-between;
     border-bottom: dashed gray;
+}
+.city:last-child{
+    border: none;
 }
 .time{
     font-size: 22px;
