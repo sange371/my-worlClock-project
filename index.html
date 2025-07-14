@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js"></script>
+    <link rel="stylesheet" href="styles/index.css"/>
+    <title>Document</title>
+</head>
+<body>
+   <div id="clock-container">
+    <main>
+        <select id="select-city">
+            <option value=" ">Select a city..</option>
+            <option value="my-current-location">My current location</option>
+            <option value="North-America/Toronto">Toronto</option>
+            <option value="Europe/Berlin">Berlin</option>
+            <option value="Asia/Tokyo">tokyo</option>
+        </select>
+        <div id="cities">
+            <div class="city" id="london">
+                <div>
+                    <h2>London</h2>
+                    <div class="date">June 12 ,2023</div>
+                </div>
+                <div class="time">12:00:34<small>AM</small></div>
+            </div>
+            <div class="city" id="moscow">
+                <div>
+                    <h2>Moscow</h2>
+                    <div class="date">April 15 ,2022</div>
+                </div>
+                <div class="time">14:56:54<small>PM</small></div>
+            </div>
+            <div class="city" id="brisbane">
+                <div>
+                    <h2>Brisbane</h2>
+                    <div class="date">March 28 ,2017</div>
+                </div>
+                <div class="time">13:34:20<small>PM</small></div>
+            </div>
+        </div>
+        
+    </main>
+    </div>
+    <footer>
+        Coded by
+        <a href="" target="_blank">Zusange Mbaleki</a>
+        and is on 
+        <a href="" target="_blank">Github</a>
+        ,Also hosted on
+        <a href="" target="_blank">Netlify</a>
+    </footer>
+    <script src="functionality/index.js"></script>
+</body>
+</html>

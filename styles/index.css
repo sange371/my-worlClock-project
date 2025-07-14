@@ -1,0 +1,47 @@
+#clock-container{
+    background-color: rgb(211, 215, 217);
+    width:420px;
+    display:block;
+    margin:60px auto;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid whitesmoke;
+}
+body{
+    background-color: rgb(227, 241, 244);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+select{
+    margin-right:120px;
+    margin-left:100px;
+    margin-top:10px;
+    width:230px;   
+    padding: 5px;
+    border-radius:4px;
+
+   
+}
+footer{
+    text-align: center;
+    font-size:14px;
+}
+a{
+    font-size:12;
+    color:rgb(8, 108, 195)
+}
+.city{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: dashed gray;
+}
+.time{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 5.3;
+}
+.time small{
+    vertical-align:middle;
+    font-size:0.7rem;
+    margin:4px;
+}
